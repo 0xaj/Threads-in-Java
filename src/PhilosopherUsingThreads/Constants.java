@@ -1,0 +1,16 @@
+package PhilosopherUsingThreads;
+
+public class Constants {
+
+    //Making to not possible for instantiation from other classes as Constant values are not changed
+    private Constants(){}
+
+
+    public static final int NUMBER_OF_PHILOSOPHERS = 5;
+    public static final int NUMBER_OF_CHOPSTICKS = 5;
+    public static final int SIMULATION_RUNNING_TIME = 5 * 1000;
+
+
+
+
+}
